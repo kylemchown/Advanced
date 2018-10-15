@@ -7,7 +7,8 @@ object Runner{
 //    hash.valuesIterator.reduceLeft(_.size max _.size)
 
 
-    println(Fibonacci.findFib(8))
+    println(Fibonacci.findFib(11))
+    println(Fibonacci.findFib2(11))
   }
 
 
