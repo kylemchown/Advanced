@@ -6,20 +6,10 @@ object Runner{
 //    val a = "death".sorted
 //    hash.valuesIterator.reduceLeft(_.size max _.size)
 
-    //(applyDiscount andThen prStr)(10.58)
 
-    println(Fibonacci.findFib(9))
+    println(Fibonacci.findFib(8))
   }
 
-  val applyDiscount = (amount: Double) => {
-    println("apply dis")
-    val dis = 0.1
-    (amount - amount*dis).toString
-  }
-
-  val prStr = (string : String) => {
-    println(string + "ajgvsb")
-  }
 
 
 

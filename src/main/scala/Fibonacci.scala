@@ -1,8 +1,8 @@
 object Fibonacci {
   @annotation.tailrec
-  def findFib(index : Int, prev: Int = 0, current: Int = 1): Int = {
+  def findFib(index : Int, prev: Int = 1, current: Int = 0): Int = {
     if (index <= 0 ){
-      prev
+      current
     }
     else {
       findFib(index - 1, current, current + prev)
